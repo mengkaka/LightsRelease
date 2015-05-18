@@ -1,1 +1,1 @@
-# EgretLightsGame
+# EgretLights
