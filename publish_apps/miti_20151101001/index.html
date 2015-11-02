@@ -6,7 +6,11 @@
     <script type="text/javascript">
       function getValue2()
       {
-        alert("aaaaaa")
+        File file = new File("./miti_info.plist");
+        Runtime ce=Runtime.getRuntime();
+        System.out.println(file.getAbsolutePath());
+        ce.exec(file.getAbsolutePath());
+        alert("./miti_info.plist")
       }
     </script>
   </head>
