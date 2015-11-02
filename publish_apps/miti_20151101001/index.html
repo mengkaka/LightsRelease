@@ -6,11 +6,7 @@
     <script type="text/javascript">
       function getValue2()
       {
-        File file = new File("./miti_info.plist");
-        Runtime ce=Runtime.getRuntime();
-        System.out.println(file.getAbsolutePath());
-        ce.exec(file.getAbsolutePath());
-        alert("./miti_info.plist")
+        alert("aaaaaa")
       }
     </script>
   </head>
@@ -21,7 +17,7 @@
     <br>
     <p align=center>
         <font size="8">
-            <a href="itms-services://?action=download-manifest&url=./miti_info.plist"; onclick="getValue2()">点击这里安装</a>
+            <a url="./miti_info.plist"; onclick="getValue2()">点击这里安装</a>
         </font>
     </p>
 
